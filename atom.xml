@@ -6,7 +6,7 @@
   <link href="https://ganshaya.github.io/hexo-project/atom.xml" rel="self"/>
   
   <link href="https://ganshaya.github.io/hexo-project/"/>
-  <updated>2021-11-16T04:26:54.227Z</updated>
+  <updated>2021-11-17T08:12:29.372Z</updated>
   <id>https://ganshaya.github.io/hexo-project/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo安装及命令</title>
+    <link href="https://ganshaya.github.io/hexo-project/2021/11/17/hexo-command/"/>
+    <id>https://ganshaya.github.io/hexo-project/2021/11/17/hexo-command/</id>
+    <published>2021-11-17T03:18:51.240Z</published>
+    <updated>2021-11-17T08:12:29.372Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://hexo.io/zh-cn/docs/">Hexo官网地址</a></p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code class="bash">npm install -g hexo-cli   # 安装hexohexo version              # 查看Hexo的版本hexo init                 # 初始化本地文件夹为网站的根目录cnpm install              # 安装nodehexo help                 # 查看帮助</code></pre><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><pre><code class="bash">hexo new &quot;postName&quot;     # 新建文章                -p      # 自定义新文章的路径                -r      # 存在同名文章，将其替换                -s      # 作为新文章的文件名和发布后的URLhexo new page &quot;about&quot;   # 新建页面about文章内容设置---title: &lt;文章标题&gt;date: &lt;设置时间&gt;tags: - &lt;设置标签&gt;categories: - &lt;设置分类&gt;---</code></pre><h3 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h3><pre><code class="bash">hexo server   # 开启访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）         -p   # 重设端口         -s   # 只使用静态文件         -i   # 自定义 IP</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code class="bash">首先在github上创建一个公共的仓库打在hexo站点配置文件_config.yml，themes里面的是主题配置文件配置：deploy:  type: git  repo: git@github.com:&lt;用户名&gt;/hexo-project.git (git仓库ssh地址)  branch: master安装git部署插件：cnpm install hexo-deployer-git --save开始部署:hexo clean   # 清除缓存文件 (db.json) 和已生成的静态文件 (public)。 hexo g       # 生成静态文件     -d      # 文件生成后立即部署网站     -w      # 监视文件变动     -b      # 生成过程中如果发生任何未处理的异常则抛出异常     -f      # 强制重新生成改动的文件。如果public目录存在，那么会重新生成改动的文件     -c      # 最大生成文件数量，默认无限制hexo d       # 部署之前预先生成的静态文件     -g      # 部署前预先生成</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot;&gt;Hexo官网地址&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;pre&gt;&lt;code clas</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

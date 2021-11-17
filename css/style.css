@@ -5527,7 +5527,7 @@ pre .js .function {
 
 pre,
 .highlight {
-  background: #fafafa;
+  background: #222F43;
   margin: 10px 0;
   padding: 15px 10px;
   overflow: auto;
@@ -5543,12 +5543,12 @@ pre,
 
 code {
   text-shadow: 0 1px #fff;
-  padding: 0.2em 0.4em;
-  margin: 0 0.3em;
-  color: #555;
+  padding: 0em 0em;
+  margin: 0em 0em;
+  color: #B0B7C4;
   background: #eee;
   border-radius: 3px;
-  font-size: 85%;
+  font-size: 115%;
 }
 
 pre code {
