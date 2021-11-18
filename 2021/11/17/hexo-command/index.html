@@ -319,9 +319,11 @@
 	</span>
 
 
+        <!-- 评论注释掉
         <span class="post-comment">
             <i class="icon icon-comment"></i> <a href="/hexo-project/2021/11/17/hexo-command/#comments" class="article-comment-link">评论</a>
         </span>
+        -->
         
 	
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 410(字)</span>
@@ -410,8 +412,6 @@ hexo d       # 部署之前预先生成的静态文件
     
   <section id="comments">
   	
-      <div id="vcomments"></div>
-    
   </section>
 
 
@@ -507,31 +507,6 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
    
-    
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/valine"></script>
-  <script type="text/javascript">
-  var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
-  meta = meta.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#vcomments',
-    verify: false,
-    notify: false,
-    appId: 'y6MWgajEA9aQoaIMMTxYA6ij-gzGzoHsz',
-    appKey: 'oyJEx9oOatPGb22dvTaxU4jr',
-    placeholder: 'Just go go',
-    avatar: 'mm',
-    meta: meta,
-    pageSize: '10' || 10,
-    visitor: false
-  });
-  </script>
-
-     
-
 
 
 
