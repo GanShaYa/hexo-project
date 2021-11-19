@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ganshaya.github.io/hexo-project/2021/11/19/database/</loc>
+    
+    <lastmod>2021-11-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ganshaya.github.io/hexo-project/2021/11/18/git-info/</loc>
     
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     
   </url>
   
@@ -52,6 +59,20 @@
   </url>
 
   
+  <url>
+    <loc>https://ganshaya.github.io/hexo-project/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2021-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://ganshaya.github.io/hexo-project/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2021-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
