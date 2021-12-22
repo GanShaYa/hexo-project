@@ -17,16 +17,16 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Oracl 日常使用记录 | Hexo</title>
+  <title>Oracl 使用记录 | Hexo</title>
   <meta name="description" content="时间加法 加1秒 select to_char(sysdate+1&#x2F;24&#x2F;60&#x2F;60,&#39;yyyy-mm-dd HH24:MI:SS&#39;) from dual;    加1分钟 select to_char(sysdate+1&#x2F;24&#x2F;60,&#39;yyyy-mm-dd HH24:MI:SS&#39;) from dual;   加1小时 select to_char(sysdate+">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Oracl 日常使用记录">
+<meta property="og:title" content="Oracl 使用记录">
 <meta property="og:url" content="https://ganshaya.github.io/hexo-project/2021/11/19/database/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="时间加法 加1秒 select to_char(sysdate+1&#x2F;24&#x2F;60&#x2F;60,&#39;yyyy-mm-dd HH24:MI:SS&#39;) from dual;    加1分钟 select to_char(sysdate+1&#x2F;24&#x2F;60,&#39;yyyy-mm-dd HH24:MI:SS&#39;) from dual;   加1小时 select to_char(sysdate+">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-19T06:49:19.336Z">
-<meta property="article:modified_time" content="2021-11-22T03:40:54.625Z">
+<meta property="article:modified_time" content="2021-12-22T03:31:15.049Z">
 <meta property="article:author" content="包菜">
 <meta property="article:tag" content="数据库">
 <meta name="twitter:card" content="summary">
@@ -243,7 +243,7 @@
                 <a class="category-link" href="/hexo-project/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
               </p>
               <p class="item-title">
-                <a href="/hexo-project/2021/11/19/database/" class="title">Oracl 日常使用记录</a>
+                <a href="/hexo-project/2021/11/19/database/" class="title">Oracl 使用记录</a>
               </p>
               <p class="item-date">
                 <time datetime="2021-11-19T06:49:19.336Z" itemprop="datePublished">2021-11-19</time>
@@ -321,7 +321,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Oracl 日常使用记录
+      Oracl 使用记录
     </h1>
   
 
@@ -360,7 +360,7 @@
         </span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 820(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 819(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 4(分)</span>
@@ -469,7 +469,7 @@
 <h3 id="匹配中文"><a href="#匹配中文" class="headerlink" title="匹配中文"></a>匹配中文</h3><blockquote>
 <p>select regexp_replace(&lt;字段名&gt;,&#39;[^&#39;||unistr(&#39;\0391&#39;)||&#39;-&#39;||unistr(&#39;\9fa5&#39;)||&#39;]&#39;,&#39;&#39;)<br> from &lt;表明&gt;<br> where back_msg is not null</p>
 </blockquote>
-<h3 id="查询随机取一条"><a href="#查询随机取一条" class="headerlink" title="查询随机取一条"></a>查询随机取一条</h3><blockquote>
+<h3 id="查询随机一条"><a href="#查询随机一条" class="headerlink" title="查询随机一条"></a>查询随机一条</h3><blockquote>
 <p>select * from<br> (select * from 表明 order by dbms_random.value)<br> where rownum&lt;= 1;</p>
 </blockquote>
 <h3 id="查询连续的数据"><a href="#查询连续的数据" class="headerlink" title="查询连续的数据"></a>查询连续的数据</h3><blockquote>
@@ -507,7 +507,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://ganshaya.github.io/hexo-project/2021/11/19/database/" title="Oracl 日常使用记录" target="_blank" rel="external">https://ganshaya.github.io/hexo-project/2021/11/19/database/</a>
+      <a href="https://ganshaya.github.io/hexo-project/2021/11/19/database/" title="Oracl 使用记录" target="_blank" rel="external">https://ganshaya.github.io/hexo-project/2021/11/19/database/</a>
     </li>
     
     <li class="post-copyright-license">
